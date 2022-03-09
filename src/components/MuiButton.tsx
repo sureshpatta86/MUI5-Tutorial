@@ -66,8 +66,8 @@ export default function MuiButton() {
         <Button variant="contained" endIcon={<SendIcon />} disableElevation>
           Send
         </Button>
-        <IconButton aria-label="send" color="primary">
-          <SendIcon onClick={() => alert("button click")} />
+        <IconButton aria-label="send" color="primary" onClick={() => alert("button click")}>
+          <SendIcon  />
         </IconButton>
       </Stack>
       <Stack direction="row">
